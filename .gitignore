@@ -1,0 +1,36 @@
+# Bytecode + caches
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.pyo
+
+# Conda envs / environments
+.env/
+env/
+venv/
+.conda/
+*.conda
+
+# VS Code + Jupyter + Editor files
+.vscode/
+.ipynb_checkpoints/
+*.swp
+
+# Environment/config files (optional in prod)
+config.json
+.env
+
+# Docker-related
+*.log
+*.pid
+docker-compose.override.yml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup envs
+*.lock
+*.bak
+*.backup
